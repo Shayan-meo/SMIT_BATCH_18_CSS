@@ -60,15 +60,14 @@ body{
     align-items: center;
     justify-content: center;
     list-style: none;
-    gap: 20px;
+    gap: 30px;
     color: var(--text-color);
     background-color: var(--background-color);
-    height: 50px;
-    width: 350px;
     border: 3px solid #1f1f1f;
     border-radius: 10px;
     font-size: 12px;
     margin-left: 100px;
+    padding: 5px 7px;
 
 }
 
@@ -1303,8 +1302,9 @@ body{
 .haimburger{
     display: block;
     position: relative;
-    right: 0px;
+    right: -70px;
     width: 20px;
+
 }
 
 /* Hero-Section */
@@ -1335,6 +1335,7 @@ body{
     /* padding-left: 0px; */
     object-fit: cover;
     padding: 0px 0px;
+    max-width: 480px;
 }
 
 
@@ -1359,6 +1360,7 @@ body{
     color: var(--text-color);
     position: relative;
     left: -40px;
+    display: none;
 }
 
 .button{
@@ -1414,6 +1416,7 @@ body{
     padding-top: 50px;
     position: relative;
     left: -70px;
+    display: none;
 }
 
 
@@ -1457,6 +1460,7 @@ body{
     align-items: center;
     justify-content: center;
     position: relative;
+    padding-top: 70px;
 }
 
 .line-1{
@@ -2619,8 +2623,3 @@ body{
 
     
 }
-
-
-
-
-
