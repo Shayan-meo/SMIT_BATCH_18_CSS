@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+:root{
+    --font-family:"Montserrat",
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+
+.nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    background-color: #0B0121;
+    padding: 15px;
+
+}
+
+.h1 {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    font-size: 27px;
+    right: 20px;
+}
+
+.list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #ECECEC;
+    list-style: none;
+
+}
+
+.btn-1 {
+    background-color: white;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 8px 12px;
+}
+
+.btn-2 {
+    background-color: #0B0121;
+    border: 1px solid #ECECEC;
+    border-radius: 15px;
+    padding: 8px 12px;
+    color: white;
+
+}
+
+.hero {
+ 
+    height: 1000px;
+    width: 100%;
+}
+
+
+
+.main {
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    top: 190px;
+    left: 420px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F2F4F8;
+    font-family: var(--font-family);
+}
+
+
+
+.hero-p{
+    margin-top: 30px;
+    width: 400px;
+   
+}
+
+.hero-p-1{
+   
+}
+/* .btn-parent{
+    display: flex;
+    align-items: center;
+} */
+
+
+.hero-btn-1{
+    color: #F2F4F8;
+    background-color: transparent;
+    border: 1px solid #F2F4F8;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-family: var(--font-family);
+}
+
+.hero-h1{
+    width: 490px;    
+    font-size: 25px;    
+    /* padding-top: 20px; */
+    /* letter-spacing: 10px;     */
+    
+}
+.modern{
+    align-items: center;
+
+}
+.main-last-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Download-btn{
+    padding: 10px 17px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.Talk-to-btn{
+    padding: 10px 17px;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #ECECEC;
+}
+
+
+
+.hero-last-pic{
+    position: absolute;
+    top: 500px;
+    left: 200px;
+   
+}
+
+.wrapper{
+    width: 800px;
+    margin-top: 30px;
+    left: 130px;
+}
+
+.footer-text{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   justify-content: center;
+   align-items: center;
+    color: #FFFFFF;
+}
+
+.footer-logo{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
