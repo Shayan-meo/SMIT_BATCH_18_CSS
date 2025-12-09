@@ -18,9 +18,10 @@
 
 .nav-bar {
     display: flex;
-    justify-content: space-evenly;
+    gap: 30px;
+    justify-content: space-around;
+    
     align-items: center;
-   
     background-color: #0B0121;
     padding: 15px;
 
@@ -30,9 +31,8 @@
     color: white;
     display: flex;
     align-items: center;
-    gap: 13px;
     font-size: 27px;
-    right: 20px;
+    gap: 12px;
 }
 
 .list {
@@ -94,14 +94,6 @@
    
 }
 
-.hero-p-1{
-   
-}
-/* .btn-parent{
-    display: flex;
-    align-items: center;
-} */
-
 
 .hero-btn-1{
     color: #F2F4F8;
@@ -115,9 +107,6 @@
 .hero-h1{
     width: 490px;    
     font-size: 25px;    
-    /* padding-top: 20px; */
-    /* letter-spacing: 10px;     */
-    
 }
 .modern{
     align-items: center;
@@ -143,7 +132,6 @@
     background-color: transparent;
     color: #ECECEC;
 }
-
 
 
 .hero-last-pic{
